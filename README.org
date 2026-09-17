@@ -3,9 +3,10 @@
 This package will automatically save whole conversation into a file as a
 transcript after each response received inside a gptel buffer.
 
-For example, if you start a conversation with the prompt ~What is the difference
-between a function and a variable in Elisp?~, the conversation will be
-automatically saved in the file ~difference-between-function-variable-elisp.org~.
+For example, if you start a conversation with the prompt “What is the difference
+between a function and a variable in Elisp?”, the conversation will be
+automatically saved in the file difference-between-function-variable-elisp.org
+(or .txt/.md).
 
 ** Installation
 
