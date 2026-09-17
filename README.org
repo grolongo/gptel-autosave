@@ -1,4 +1,4 @@
-* gptel-autosave
+#+TITLE: gptel-autosave
 
 This package will automatically save whole conversation into a file as a
 transcript after each response received inside a gptel buffer.
@@ -8,7 +8,7 @@ between a function and a variable in Elisp?”, the conversation will be
 automatically saved in the file difference-between-function-variable-elisp.org
 (or .txt/.md).
 
-** Installation
+* Installation
 
 #+BEGIN_SRC emacs-lisp
 (use-package gptel-autosave
@@ -17,9 +17,9 @@ automatically saved in the file difference-between-function-variable-elisp.org
   :hook (gptel-mode . gptel-autosave-mode))
 #+END_SRC
 
-** Available customization
+* Available customization
 
-| User Option                | Default                             | Description                                            |
+| Variable                   | Default                             | Description                                            |
 |----------------------------+-------------------------------------+--------------------------------------------------------|
 | gptel-autosave-directory   | ~/.config/emacs/gptel-conversations | Directory where transcripts of conversations are saved |
 | gptel-autosave-slug-length | 6                                   | Maximum number of words for a filename                 |
