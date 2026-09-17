@@ -1,8 +1,10 @@
 * gptel-autosave
 
+** Description
+
 Automatically save a conversation after receiving a response in gptel
 
-* Installation
+** Installation
 
 #+BEGIN_SRC emacs-lisp
 (use-package gptel-autosave
@@ -11,7 +13,7 @@ Automatically save a conversation after receiving a response in gptel
   :hook (gptel-mode . gptel-autosave-mode))
 #+END_SRC
 
-* Available customization
+** Available customization
 
 | User Option                | Default                             | Description                                            |
 |----------------------------+-------------------------------------+--------------------------------------------------------|
