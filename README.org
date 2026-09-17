@@ -4,10 +4,12 @@ Automatically save a conversation after receiving a response in gptel
 
 * Installation
 
+#+BEGIN_SRC emacs-lisp
 (use-package gptel-autosave
   :after gptel
   :vc (:url "https://github.com/grolongo/gptel-autosave")
   :hook (gptel-mode . gptel-autosave-mode))
+#+END_SRC
 
 * Available customization
 
