@@ -2,8 +2,17 @@
 
 Automatically save a conversation after receiving a response in gptel
 
-| user customize options     | default                                            |
-|----------------------------+----------------------------------------------------|
-| gptel-autosave-directory   | gptel_conversations folder in user-emacs-directory |
-| gptel-autosave-slug-length | 6                                                  |
-| gptel-autosave-stopwords   | NLTK English stopwords corpus                      |
+* Installation
+
+(use-package gptel-autosave
+  :after gptel
+  :vc (:url "https://github.com/grolongo/gptel-autosave")
+  :hook (gptel-mode . gptel-autosave-mode))
+
+* Available customization
+
+| User Option                | Default                             | Description                                            |
+|----------------------------+-------------------------------------+--------------------------------------------------------|
+| gptel-autosave-directory   | ~/.config/emacs/gptel-conversations | Directory where transcripts of conversations are saved |
+| gptel-autosave-slug-length | 6                                   | Maximum number of words for a filename                 |
+| gptel-autosave-stopwords   | NLTK English stopwords corpus       | List of pronouns, articles, verbs, etc to trim out     |

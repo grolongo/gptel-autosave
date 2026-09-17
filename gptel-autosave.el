@@ -34,7 +34,7 @@
   :group 'convenience)
 
 (defcustom gptel-autosave-directory
-  (expand-file-name "gptel_conversations" user-emacs-directory)
+  (expand-file-name "gptel-conversations" user-emacs-directory)
   "Directory where gptel-autosave will save conversations."
   :group 'gptel-autosave
   :type 'directory)
