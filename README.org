@@ -1,0 +1,9 @@
+* gptel-autosave
+
+Automatically save a conversation after receiving a response in gptel
+
+| user customize options     | default                                            |
+|----------------------------+----------------------------------------------------|
+| gptel-autosave-directory   | gptel_conversations folder in user-emacs-directory |
+| gptel-autosave-slug-length | 6                                                  |
+| gptel-autosave-stopwords   | NLTK English stopwords corpus                      |
