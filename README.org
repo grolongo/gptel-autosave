@@ -1,8 +1,11 @@
 * gptel-autosave
 
-** Description
+This package will automatically save whole conversation into a file as a
+transcript after each response received inside a gptel buffer.
 
-Automatically save a conversation after receiving a response in gptel
+For example, if you start a conversation with the prompt ~What is the difference
+between a function and a variable in Elisp?~, the conversation will be
+automatically saved in the file ~difference-between-function-variable-elisp.org~.
 
 ** Installation
 
