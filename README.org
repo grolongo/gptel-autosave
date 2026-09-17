@@ -8,7 +8,7 @@ between a function and a variable in Elisp?”, the conversation will be
 automatically saved in the file difference-between-function-variable-elisp.org
 (or .txt/.md).
 
-* Installation
+** Installation
 
 #+BEGIN_SRC emacs-lisp
 (use-package gptel-autosave
@@ -17,7 +17,7 @@ automatically saved in the file difference-between-function-variable-elisp.org
   :hook (gptel-mode . gptel-autosave-mode))
 #+END_SRC
 
-* Available customization
+** Available customization
 
 | Variable                   | Default                             | Description                                            |
 |----------------------------+-------------------------------------+--------------------------------------------------------|
