@@ -1,10 +1,8 @@
-;;; gptel-autosave.el --- -*- lexical-binding: t -*-
+;;; gptel-autosave.el --- Autosave gptel conversations -*- lexical-binding: t -*-
 
-;; Copyright (C) 2026 grolongo
 ;; Author: grolongo
-;; Version: 1.0
-;; Package-Requires: ((gptel "0.9.9.6))
 ;; URL: https://github.com/grolongo/gptel-autosave.el
+;; Version: 1.0
 ;; Keywords: ai, gpt, convenience
 
 ;; This program is free software; you can redistribute it and/or modify
